@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#FF0000</color>
+    <color name="grey">#808080</color>
+    
+    <color name="mood_bg">#3E2F40</color>
+    <color name="unselected">#A7A0A8</color>
+    <color name="ok_bg_color">#F8F8F8</color>
+     <color name="ok_bg_color_selected">#CCCCCC</color>
+
+    <color name="blue">#4000FF</color>
+
+    <color name="demo_bg_color">#FF0000</color>
+    <color name="demo_bg_color_selected">#A52A2A</color>
+    
+</resources>

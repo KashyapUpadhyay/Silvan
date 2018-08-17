@@ -1,0 +1,777 @@
+{
+    "rooms": [
+        {
+            "Bed room": {
+
+                "ac1": {
+                    "script": "app_usr_core_sendIRPulse.sh",
+                    "id": "IR_D01",
+                    "type": "ac",
+                    "nickname": "AC",
+                    "command": {
+                        "19": "AC_19_",
+                        "20": "AC_20_",
+                        "21": "AC_21_",
+                        "22": "AC_22_",
+                        "23": "AC_23_",
+                        "24": "AC_24_",
+                        "25": "AC_25_",
+                        "26": "AC_26_",
+                        "27": "AC_27_",
+                        "28": "AC_28_",
+                        "29": "AC_29_",
+                        "on": "AC_ON_",
+                        "off": "AC_OFF",
+                        "fl1": "AC_FL1",
+                        "fl2": "AC_FL2",
+                        "fl3": "AC_FL3"
+                    }
+                }
+            }
+        },
+        {
+        "Bed room": {
+
+            "ac1": {
+                "script": "app_usr_core_sendIRPulse.sh",
+                "id": "IR_D01",
+                "type": "ac",
+                "nickname": "AC",
+                "command": {
+                    "19": "AC_19_",
+                    "20": "AC_20_",
+                    "21": "AC_21_",
+                    "22": "AC_22_",
+                    "23": "AC_23_",
+                    "24": "AC_24_",
+                    "25": "AC_25_",
+                    "26": "AC_26_",
+                    "27": "AC_27_",
+                    "28": "AC_28_",
+                    "29": "AC_29_",
+                    "on": "AC_ON_",
+                    "off": "AC_OFF",
+                    "fl1": "AC_FL1",
+                    "fl2": "AC_FL2",
+                    "fl3": "AC_FL3"
+                }
+            }
+        }},
+        {
+            "Bed room1": {
+
+                "ac1": {
+                    "script": "app_usr_core_sendIRPulse.sh",
+                    "id": "IR_D01",
+                    "type": "ac",
+                    "nickname": "AC",
+                    "command": {
+                        "19": "AC_19_",
+                        "20": "AC_20_",
+                        "21": "AC_21_",
+                        "22": "AC_22_",
+                        "23": "AC_23_",
+                        "24": "AC_24_",
+                        "25": "AC_25_",
+                        "26": "AC_26_",
+                        "27": "AC_27_",
+                        "28": "AC_28_",
+                        "29": "AC_29_",
+                        "on": "AC_ON_",
+                        "off": "AC_OFF",
+                        "fl1": "AC_FL1",
+                        "fl2": "AC_FL2",
+                        "fl3": "AC_FL3"
+                    }
+                }
+            }},
+        {
+            "Bed room2": {
+
+                "ac1": {
+                    "script": "app_usr_core_sendIRPulse.sh",
+                    "id": "IR_D01",
+                    "type": "ac",
+                    "nickname": "AC",
+                    "command": {
+                        "19": "AC_19_",
+                        "20": "AC_20_",
+                        "21": "AC_21_",
+                        "22": "AC_22_",
+                        "23": "AC_23_",
+                        "24": "AC_24_",
+                        "25": "AC_25_",
+                        "26": "AC_26_",
+                        "27": "AC_27_",
+                        "28": "AC_28_",
+                        "29": "AC_29_",
+                        "on": "AC_ON_",
+                        "off": "AC_OFF",
+                        "fl1": "AC_FL1",
+                        "fl2": "AC_FL2",
+                        "fl3": "AC_FL3"
+                    }
+                }
+            }},
+        {
+            "Bed room3": {
+
+                "ac1": {
+                    "script": "app_usr_core_sendIRPulse.sh",
+                    "id": "IR_D01",
+                    "type": "ac",
+                    "nickname": "AC",
+                    "command": {
+                        "19": "AC_19_",
+                        "20": "AC_20_",
+                        "21": "AC_21_",
+                        "22": "AC_22_",
+                        "23": "AC_23_",
+                        "24": "AC_24_",
+                        "25": "AC_25_",
+                        "26": "AC_26_",
+                        "27": "AC_27_",
+                        "28": "AC_28_",
+                        "29": "AC_29_",
+                        "on": "AC_ON_",
+                        "off": "AC_OFF",
+                        "fl1": "AC_FL1",
+                        "fl2": "AC_FL2",
+                        "fl3": "AC_FL3"
+                    }
+                }
+            }},
+        {
+            "Bed room4": {
+
+                "ac1": {
+                    "script": "app_usr_core_sendIRPulse.sh",
+                    "id": "IR_D01",
+                    "type": "ac",
+                    "nickname": "AC",
+                    "command": {
+                        "19": "AC_19_",
+                        "20": "AC_20_",
+                        "21": "AC_21_",
+                        "22": "AC_22_",
+                        "23": "AC_23_",
+                        "24": "AC_24_",
+                        "25": "AC_25_",
+                        "26": "AC_26_",
+                        "27": "AC_27_",
+                        "28": "AC_28_",
+                        "29": "AC_29_",
+                        "on": "AC_ON_",
+                        "off": "AC_OFF",
+                        "fl1": "AC_FL1",
+                        "fl2": "AC_FL2",
+                        "fl3": "AC_FL3"
+                    }
+                }
+            }},
+
+        {
+            "Dining Room-GF": {
+                "light1": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D302",
+                    "channel": 1,
+                    "nickname": "light",
+                    "type": "switching",
+                    "command": {
+                        "tg": "LT_1TG",
+                        "on": "LT_1ON",
+                        "off": "LT_1OF"
+                    }
+                },
+                "light2": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D302",
+                    "channel": 2,
+                    "nickname": "Light-1",
+                    "type": "switching",
+                    "command": {
+                        "tg": "LT_2TG",
+                        "on": "LT_2ON",
+                        "off": "LT_2OF"
+                    }
+                },
+                "light3": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D302",
+                    "channel": 3,
+                    "nickname": "Light-2",
+                    "type": "switching",
+                    "command": {
+                        "tg": "LT_3TG",
+                        "on": "LT_3ON",
+                        "off": "LT_3OF"
+                    }
+                },
+                "light4": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D302",
+                    "channel": 4,
+                    "nickname": "Light-3",
+                    "type": "switching",
+                    "command": {
+                        "tg": "LT_4TG",
+                        "on": "LT_4ON",
+                        "off": "LT_4OF"
+                    }
+                },
+				"dimmer1": {
+                    "script": "atzi_usr_dimmerControl.sh",
+                    "id": "SD_D401",
+                    "channel": 2,
+                    "nickname": "Dimmer-1",
+                    "type": "dimming",
+                    "command": {
+                        "up": "2+1+0",
+                        "down": "2+-1+0",
+                        "tg": "DM_2TG",
+                        "on": "DM_2ON",
+                        "off": "DM_2OF",
+                        "level0": "DM_2L0",
+                        "level1": "DM_2L1",
+                        "level2": "DM_2L2",
+                        "level3": "DM_2L3",
+                        "level4": "DM_2L4",
+                        "level5": "DM_2L5",
+                        "level6": "DM_2L6",
+                        "level7": "DM_2L7",
+                        "level8": "DM_2L8",
+                        "level9": "DM_2L9",
+                        "level10": "DM_2LA",
+                        "level11": "DM_2LB",
+                        "level12": "DM_2LC",
+                        "level13": "DM_2LD"
+                    }
+                },
+				 "ac1": {
+                    "script": "app_usr_core_sendIRPulse.sh",
+                    "id": "IR_D04",
+                    "command": {
+                        "19": "AC_19_",
+                        "20": "AC_20_",
+                        "21": "AC_21_",
+                        "22": "AC_22_",
+                        "23": "AC_23_",
+                        "24": "AC_24_",
+                        "25": "AC_25_",
+                        "26": "AC_26_",
+                        "27": "AC_27_",
+                        "28": "AC_28_",
+                        "29": "AC_29_",
+                        "on": "AC_ON_",
+                        "off": "AC_OFF",
+                        "fl1": "AC_FL1",
+                        "fl2": "AC_FL2",
+                        "fl3": "AC_FL3"
+                    }
+                },
+                "tv1": {
+                    "script": "app_usr_core_sendIRPulse.sh",
+                    "id": "IR_D05",
+                    "command": {
+                        "pwr": "TV_PWR",
+                        "ch_up": "TV_CHU",
+                        "ch_dwn": "TV_CHD",
+                        "vol_up": "TV_VLU",
+                        "vol_dwn": "TV_VLD",
+                        "mute": "TV_MUT",
+                        "source": "TV_SRC",
+                        "enter": "TV_ETR",
+                        "up": "TV_UP_",
+                        "down": "TV_DWN",
+                        "right": "TV_RGT",
+                        "left": "TV_LFT"
+                    }
+                },
+                "stb1": {
+                    "script": "app_usr_core_sendIRPulse.sh",
+                    "id": "IR_D06",
+                    "command": {
+                        "pwr": "STB_PWR",
+                        "ch_up": "STB_CHU",
+                        "ch_dwn": "STB_CHD",
+                        "vol_up": "STB_VLU",
+                        "vol_dwn": "STB_VLD",
+                        "play": "STB_PLY",
+                        "pause": "STB_PAU",
+                        "mute": "STB_MUT",
+                        "source": "STB_SRC",
+                        "enter": "STB_ETR",
+                        "guide": "STB_GIE",
+                        "up": "STB_UP",
+                        "down": "STB_DWN",
+                        "right": "STB_RGT",
+                        "left": "STB_LFT"
+                    }
+                }
+            }
+        },
+        {
+            "Upper Living-FF": {
+                "light1": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D303",
+                    "channel": 1,
+                    "nickname": "FAN",
+                    "type": "switching",
+                    "command": {
+                        "tg": "LT_1TG",
+                        "on": "LT_1ON",
+                        "off": "LT_1OF"
+                    }
+                },
+                "light2": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D303",
+                    "channel": 2,
+                    "nickname": "Light-1",
+                    "type": "switching",
+                    "command": {
+                        "tg": "LT_2TG",
+                        "on": "LT_2ON",
+                        "off": "LT2OF"
+                    }
+                },
+                "light3": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D303",
+                    "channel": 3,
+                    "nickname": "Light-2",
+                    "type": "switching",
+                    "command": {
+                        "tg": "LT_3TG",
+                        "on": "LT_3ON",
+                        "off": "LT_3OF"
+                    }
+                },
+                "light4": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D303",
+                    "channel": 4,
+                    "nickname": "Light-3",
+                    "type": "switching",
+                    "command": {
+                        "tg": "LT_4TG",
+                        "on": "LT_4ON",
+                        "off": "LT_4OF"
+                    }
+                },
+				"dimmer1": {
+                    "script": "atzi_usr_dimmerControl.sh",
+                    "id": "SD_D401",
+                    "channel": 3,
+                    "nickname": "Dimmer-1",
+                    "type": "dimming",
+                    "command": {
+                        "up": "3+1+0",
+                        "down": "3+-1+0",
+                        "tg": "DM_3TG",
+                        "on": "DM_3ON",
+                        "off": "DM_3OF",
+                        "level0": "DM_3L0",
+                        "level1": "DM_3L1",
+                        "level2": "DM_3L2",
+                        "level3": "DM_3L3",
+                        "level4": "DM_3L4",
+                        "level5": "DM_3L5",
+                        "level6": "DM_3L6",
+                        "level7": "DM_3L7",
+                        "level8": "DM_3L8",
+                        "level9": "DM_3L9",
+                        "level10": "DM_3LA",
+                        "level11": "DM_3LB",
+                        "level13": "DM_3LC",
+                        "level13": "DM_3LD"
+                    }
+                },
+				 "ac1": {
+                    "script": "app_usr_core_sendIRPulse.sh",
+                    "id": "IR_D07",
+                    "command": {
+                        "19": "AC_19_",
+                        "20": "AC_20_",
+                        "21": "AC_21_",
+                        "22": "AC_22_",
+                        "23": "AC_23_",
+                        "24": "AC_24_",
+                        "25": "AC_25_",
+                        "26": "AC_26_",
+                        "27": "AC_27_",
+                        "28": "AC_28_",
+                        "29": "AC_29_",
+                        "on": "AC_ON_",
+                        "off": "AC_OFF",
+                        "fl1": "AC_FL1",
+                        "fl2": "AC_FL2",
+                        "fl3": "AC_FL3"
+                    }
+                },
+                "tv1": {
+                    "script": "app_usr_core_sendIRPulse.sh",
+                    "id": "IR_D08",
+                    "command": {
+                        "pwr": "TV_PWR",
+                        "ch_up": "TV_CHU",
+                        "ch_dwn": "TV_CHD",
+                        "vol_up": "TV_VLU",
+                        "vol_dwn": "TV_VLD",
+                        "mute": "TV_MUT",
+                        "source": "TV_SRC",
+                        "enter": "TV_ETR",
+                        "up": "TV_UP_",
+                        "down": "TV_DWN",
+                        "right": "TV_RGT",
+                        "left": "TV_LFT"
+                    }
+                },
+                "stb1": {
+                    "script": "app_usr_core_sendIRPulse.sh",
+                    "id": "IR_D09",
+                    "command": {
+                        "pwr": "STB_PWR",
+                        "ch_up": "STB_CHU",
+                        "ch_dwn": "STB_CHD",
+                        "vol_up": "STB_VLU",
+                        "vol_dwn": "STB_VLD",
+                        "play": "STB_PLY",
+                        "pause": "STB_PAU",
+                        "mute": "STB_MUT",
+                        "source": "STB_SRC",
+                        "enter": "STB_ETR",
+                        "guide": "STB_GIE",
+                        "up": "STB_UP",
+                        "down": "STB_DWN",
+                        "right": "STB_RGT",
+                        "left": "STB_LFT"
+                    }
+                }
+            ,
+                "electricals": {
+                    "url": "http://www.gmail.com/"
+                }
+            }
+        },
+        {
+            "MBR": {
+                "light1": {
+                    "script": "atzi_usr_dimmerControl.sh",
+                    "id": "SR_D303",
+                    "channel": 1,
+                    "nickname": "Fan",
+                    "type": "switching",
+                    "command": {
+                        "tg": "LT_1TG",
+                        "on": "LT_1ON",
+                        "off": "LT_1OF"
+                    }
+                },
+                "light2": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D303",
+                    "channel": 2,
+                    "nickname": "Light-1",
+                    "type": "switching",
+                    "command": {
+                        "tg": "LT_2TG",
+                        "on": "LT_2ON",
+                        "off": "LT2OF"
+                    }
+                },
+                "light3": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D303",
+                    "channel": 3,
+                    "nickname": "Light-2",
+                    "type": "switching",
+                    "command": {
+                        "tg": "LT_3TG",
+                        "on": "LT_3ON",
+                        "off": "LT_3OF"
+                    }
+                },
+                "light4": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D303",
+                    "channel": 4,
+                    "nickname": "Light-3",
+                    "type": "switching",
+                    "command": {
+                        "tg": "LT_4TG",
+                        "on": "LT_4ON",
+                        "off": "LT_4OF"
+                    }
+                },
+                "dimmer1": {
+                    "script": "atzi_usr_dimmerControl.sh",
+                    "id": "SD_D401",
+                    "channel": 4,
+                    "nickname": "Dimmer-1",
+                    "type": "dimming",
+                    "command": {
+                        "up": "4+1+0",
+                        "down": "4+-1+0",
+                        "tg": "DM_4TG",
+                        "on": "DM_4ON",
+                        "off": "DM_4OF",
+                        "level0": "DM_4L0",
+                        "level1": "DM_4L1",
+                        "level2": "DM_4L2",
+                        "level3": "DM_4L3",
+                        "level4": "DM_4L4",
+                        "level5": "DM_4L5",
+                        "level6": "DM_4L6",
+                        "level7": "DM_4L7",
+                        "level8": "DM_4L8",
+                        "level9": "DM_4L9",
+                        "level10": "DM_4LA",
+                        "level11": "DM_4LB",
+                        "level12": "DM_4LC",
+                        "level13": "DM_4LD"
+                    }
+                },
+                "ac1": {
+                    "script": "app_usr_core_sendIRPulse.sh",
+                    "id": "IR_D10",
+                    "command": {
+                        "19": "AC_19_",
+                        "20": "AC_20_",
+                        "21": "AC_21_",
+                        "22": "AC_22_",
+                        "23": "AC_23_",
+                        "24": "AC_24_",
+                        "25": "AC_25_",
+                        "26": "AC_26_",
+                        "27": "AC_27_",
+                        "28": "AC_28_",
+                        "29": "AC_29_",
+                        "on": "AC_ON_",
+                        "off": "AC_OFF",
+                        "fl1": "AC_FL1",
+                        "fl2": "AC_FL2",
+                        "fl3": "AC_FL3"
+                    }
+                },
+                "tv1": {
+                    "script": "app_usr_core_sendIRPulse.sh",
+                    "id": "IR_D11",
+                    "command": {
+                        "pwr": "TV_PWR",
+                        "ch_up": "TV_CHU",
+                        "ch_dwn": "TV_CHD",
+                        "vol_up": "TV_VLU",
+                        "vol_dwn": "TV_VLD",
+                        "mute": "TV_MUT",
+                        "source": "TV_SRC",
+                        "enter": "TV_ETR",
+                        "up": "TV_UP_",
+                        "down": "TV_DWN",
+                        "right": "TV_RGT",
+                        "left": "TV_LFT"
+                    }
+                },
+                "stb1": {
+                    "script": "app_usr_core_sendIRPulse.sh",
+                    "id": "IR_D12",
+                    "command": {
+                        "pwr": "STB_PWR",
+                        "ch_up": "STB_CHU",
+                        "ch_dwn": "STB_CHD",
+                        "vol_up": "STB_VLU",
+                        "vol_dwn": "STB_VLD",
+                        "play": "STB_PLY",
+                        "pause": "STB_PAU",
+                        "mute": "STB_MUT",
+                        "source": "STB_SRC",
+                        "enter": "STB_ETR",
+                        "guide": "STB_GIE",
+                        "up": "STB_UP",
+                        "down": "STB_DWN",
+                        "right": "STB_RGT",
+                        "left": "STB_LFT"
+                    }
+                }
+            }
+        },
+        {
+            "MBR": {
+                "light1": {
+                    "script": "atzi_usr_dimmerControl.sh",
+                    "id": "SR_D303",
+                    "channel": 1,
+                    "nickname": "Fan",
+                    "type": "switching",
+                    "command": {
+                        "tg": "LT_1TG",
+                        "on": "LT_1ON",
+                        "off": "LT_1OF"
+                    }
+                },
+                "light2": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D303",
+                    "channel": 2,
+                    "nickname": "Light-1",
+                    "type": "switching",
+                    "command": {
+                        "tg": "LT_2TG",
+                        "on": "LT_2ON",
+                        "off": "LT2OF"
+                    }
+                },
+                "light3": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D303",
+                    "channel": 3,
+                    "nickname": "Light-2",
+                    "type": "switching",
+                    "command": {
+                        "tg": "LT_3TG",
+                        "on": "LT_3ON",
+                        "off": "LT_3OF"
+                    }
+                },
+                "light4": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D303",
+                    "channel": 4,
+                    "nickname": "Light-3",
+                    "type": "switching",
+                    "command": {
+                        "tg": "LT_4TG",
+                        "on": "LT_4ON",
+                        "off": "LT_4OF"
+                    }
+                },
+                "dimmer1": {
+                    "script": "atzi_usr_dimmerControl.sh",
+                    "id": "SD_D401",
+                    "channel": 4,
+                    "nickname": "Dimmer-1",
+                    "type": "dimming",
+                    "command": {
+                        "up": "4+1+0",
+                        "down": "4+-1+0",
+                        "tg": "DM_4TG",
+                        "on": "DM_4ON",
+                        "off": "DM_4OF",
+                        "level0": "DM_4L0",
+                        "level1": "DM_4L1",
+                        "level2": "DM_4L2",
+                        "level3": "DM_4L3",
+                        "level4": "DM_4L4",
+                        "level5": "DM_4L5",
+                        "level6": "DM_4L6",
+                        "level7": "DM_4L7",
+                        "level8": "DM_4L8",
+                        "level9": "DM_4L9",
+                        "level10": "DM_4LA",
+                        "level11": "DM_4LB",
+                        "level12": "DM_4LC",
+                        "level13": "DM_4LD"
+                    }
+                },
+                "ac1": {
+                    "script": "app_usr_core_sendIRPulse.sh",
+                    "id": "IR_D10",
+                    "command": {
+                        "19": "AC_19_",
+                        "20": "AC_20_",
+                        "21": "AC_21_",
+                        "22": "AC_22_",
+                        "23": "AC_23_",
+                        "24": "AC_24_",
+                        "25": "AC_25_",
+                        "26": "AC_26_",
+                        "27": "AC_27_",
+                        "28": "AC_28_",
+                        "29": "AC_29_",
+                        "on": "AC_ON_",
+                        "off": "AC_OFF",
+                        "fl1": "AC_FL1",
+                        "fl2": "AC_FL2",
+                        "fl3": "AC_FL3"
+                    }
+                },
+                "tv1": {
+                    "script": "app_usr_core_sendIRPulse.sh",
+                    "id": "IR_D11",
+                    "command": {
+                        "pwr": "TV_PWR",
+                        "ch_up": "TV_CHU",
+                        "ch_dwn": "TV_CHD",
+                        "vol_up": "TV_VLU",
+                        "vol_dwn": "TV_VLD",
+                        "mute": "TV_MUT",
+                        "source": "TV_SRC",
+                        "enter": "TV_ETR",
+                        "up": "TV_UP_",
+                        "down": "TV_DWN",
+                        "right": "TV_RGT",
+                        "left": "TV_LFT"
+                    }
+                },
+                "stb1": {
+                    "script": "app_usr_core_sendIRPulse.sh",
+                    "id": "IR_D12",
+                    "command": {
+                        "pwr": "STB_PWR",
+                        "ch_up": "STB_CHU",
+                        "ch_dwn": "STB_CHD",
+                        "vol_up": "STB_VLU",
+                        "vol_dwn": "STB_VLD",
+                        "play": "STB_PLY",
+                        "pause": "STB_PAU",
+                        "mute": "STB_MUT",
+                        "source": "STB_SRC",
+                        "enter": "STB_ETR",
+                        "guide": "STB_GIE",
+                        "up": "STB_UP",
+                        "down": "STB_DWN",
+                        "right": "STB_RGT",
+                        "left": "STB_LFT"
+                    }
+                }
+
+            }
+        }
+                
+      
+    ],
+    "camera": [
+        {
+            "name": "Bed room",
+            "local_url": "http://192.168.1.121:84/goform/stream?cmd=get&channel=0",
+            "ext_url": "http://silavansaya.com/goform/stream?cmd=get&channel=0"
+        },
+        {
+            "name": "Dining Room-GF",
+            "local_url": "http://192.168.1.121:84/goform/stream?cmd=get&channel=0",
+            "ext_url": "http://silavansaya.com/goform/stream?cmd=get&channel=0"
+        }],
+    "vdb":{
+        "vdb_video_path":"/goform/stream?cmd=get&channel=0",
+        "vdb_status_path":"/goform/device?cmd=get"
+     },
+    "sensors": {
+        "panicA1": "Panic:Kitchen",
+        "panicA2": "Panic:Master Bedroom",
+		"panicA3": "Panic:Bedroom-1",
+		"gasleakA4": "Gas:Bedroom leak",
+		"glassbreakA5": "Glass:Glass Break",
+		"heatB2": "Heat:Heat",
+        "panicA4": "MDC:Main Door",
+        "doorintrusionA7": "MDC:Kitchen Door",
+        "doorintrusionB0": "MDC:BedRoom-1 Door",
+        "doorintrusionB1": "MDC:Terrace Door",
+        "panicA4": "PIR:Kitchen",
+        "motionB6": "PIR:Living/Dining Room",
+        "motionB7": "PIR:Bedroom-1",
+        "glassbreakC2": "GBD:Living/Dining Room",
+        "glassbreakC3": "GBD:Bedroom-2"
+    }
+}

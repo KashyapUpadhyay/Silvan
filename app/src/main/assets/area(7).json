@@ -1,0 +1,233 @@
+{
+  "vdb": {
+    "vdb_video_path": "/cgi-bin/mjpg/video.cgi?channel=1",
+    "vdb_status_path": "/web/data/getVDBStatus.txt"
+  },
+  "camera": [
+    {
+      "name": "LivingRoom-GF",
+      "local_url": "http://192.168.1.231:84/goform/stream?cmd=get&channel=0",
+      "ext_url": "http://silavansaya.com/goform/stream?cmd=get&channel=0"
+    },
+    {
+      "name": "LivingRoom-FF",
+      "local_url": "http://192.168.1.231:84/goform/stream?cmd=get&channel=0",
+      "ext_url": "http://silavansaya.com/goform/stream?cmd=get&channel=0"
+    },
+    {
+      "name": "Master BedRoom-GF",
+      "local_url": "http://192.168.1.231:84/goform/stream?cmd=get&channel=0",
+      "ext_url": "http://silavansaya.com/goform/stream?cmd=get&channel=0"
+    },
+    {
+      "name": "BedRoom-GF",
+      "local_url": "http://192.168.1.231:84/goform/stream?cmd=get&channel=0",
+      "ext_url": "http://silavansaya.com/goform/stream?cmd=get&channel=0"
+    },
+    {
+      "name": "Master BedRoom-FF",
+      "local_url": "http://192.168.1.231:84/goform/stream?cmd=get&channel=0",
+      "ext_url": "http://silavansaya.com/goform/stream?cmd=get&channel=0"
+    },
+    {
+      "name": "BedRoom-FF",
+      "local_url": "http://192.168.1.231:84/goform/stream?cmd=get&channel=0",
+      "ext_url": "http://silavansaya.com/goform/stream?cmd=get&channel=0"
+    }
+  ],
+  "rooms": [
+    {
+      "Demo Area": {
+        "dimmer1": {
+          "script": "atzi_usr_dimmerControl.sh",
+          "id": "SD_D401",
+          "channel": "1",
+          "type": "switching",
+          "nickname": "Focus Light-1",
+          "command": {
+            "tg": "DM_1TG",
+            "on": "DM_1ON",
+            "off": "DM_1OF"
+          }
+        },
+        "dimmer2": {
+          "script": "atzi_usr_dimmerControl.sh",
+          "id": "SD_D401",
+          "channel": "2",
+          "type": "switching",
+          "nickname": "Focus Light-2",
+          "command": {
+            "tg": "DM_2TG",
+            "on": "DM_2ON",
+            "off": "DM_2OF"
+          }
+        },
+        "dimmer3": {
+          "script": "atzi_usr_dimmerControl.sh",
+          "id": "SD_D401",
+          "channel": "3",
+          "type": "switching",
+          "nickname": "Focus Light-3",
+          "command": {
+            "tg": "DM_3TG",
+            "on": "DM_3ON",
+            "off": "DM_3OF"
+          }
+        },
+        "dimmer4": {
+          "script": "atzi_usr_dimmerControl.sh",
+          "id": "SD_D401",
+          "channel": "4",
+          "type": "switching",
+          "nickname": "Focus Light-4",
+          "command": {
+            "tg": "DM_4TG",
+            "on": "DM_4ON",
+            "off": "DM_4OF"
+          }
+        },
+        "dimmer5": {
+          "script": "atzi_usr_dimmerControl.sh",
+          "id": "SD_D402",
+          "channel": "1",
+          "type": "switching",
+          "nickname": " Corner Cove-1",
+          "command": {
+            "tg": "DM_1TG",
+            "on": "DM_1ON",
+            "off": "DM_1OF"
+          }
+        },
+        "dimmer6": {
+          "script": "atzi_usr_dimmerControl.sh",
+          "id": "SD_D402",
+          "channel": "2",
+          "type": "switching",
+          "nickname": " Corner Cove-2",
+          "command": {
+            "tg": "DM_2TG",
+            "on": "DM_2ON",
+            "off": "DM_2OF"
+          }
+        },
+        "dimmer7": {
+          "script": "atzi_usr_dimmerControl.sh",
+          "id": "SD_D403",
+          "channel": "2",
+          "type": "dimming",
+          "nickname": "Dimmer-1",
+          "command": {
+            "up": "2+3+0",
+            "down": "2+-3+0",
+            "tg": "DM_2TG",
+            "on": "DM_2ON",
+            "off": "DM_2OF"
+          }
+        },
+        "dimmer8": {
+          "script": "atzi_usr_dimmerControl.sh",
+          "id": "SD_D403",
+          "channel": "3",
+          "type": "dimming",
+          "nickname": "Dimmer-2",
+          "command": {
+            "up": "3+3+0",
+            "down": "3+-3+0",
+            "tg": "DM_3TG",
+            "on": "DM_3ON",
+            "off": "DM_3OF"
+          }
+        },
+        "dimmer9": {
+          "script": "atzi_usr_dimmerControl.sh",
+          "id": "SD_D403",
+          "channel": "4",
+          "type": "dimming",
+          "nickname": "Dimmer-3",
+          "command": {
+            "up": "4+3+0",
+            "down": "4+-3+0",
+            "tg": "DM_4TG",
+            "on": "DM_4ON",
+            "off": "DM_4OF"
+          }
+        },
+
+        "light 1": {
+          "script": "atzi_usr_dimmerControl.sh",
+          "id": "SD_D402",
+          "channel": "4",
+          "type": "dimming",
+          "nickname": "Dimmer-5",
+          "command": {
+            "up": "4+3+0",
+            "down": "4+-3+0",
+            "tg": "DM_4TG",
+            "on": "DM_4ON",
+            "off": "DM_4OF"
+          }
+        },
+        "light 2": {
+          "script": "atzi_usr_dimmerControl.sh",
+          "id": "SD_D403",
+          "channel": "1",
+          "type": "dimming",
+          "nickname": "Dimmer-6",
+          "command": {
+            "up": "1+3+0",
+            "down": "1+-3+0",
+            "tg": "DM_1TG",
+            "on": "DM_1ON",
+            "off": "DM_1OF"
+          }
+        },
+        "tv1": {
+          "script": "app_usr_core_sendIRPulse.sh",
+          "id": "IR_D01",
+          "type": "tv",
+          "nickname": " Projector",
+          "command": {
+            "menu": "TV_MEN",
+            "exit": "TV_EXT",
+            "left": "TV_LFT",
+            "right": "TV_RGT",
+            "up": "TV_UP_",
+            "down": "TV_DWN",
+            "source": "TV_SRC",
+            "enter": "TV_ETR",
+            "play": "TV_PLY",
+            "pause": "TV_PAS",
+            "previous": "TV_PRV",
+            "next": "TV_NXT",
+            "usb": "TV_USB",
+            "pwr": "TV_PWR",
+            "ch_dwn": "TV_CHD",
+            "ch_up": "TV_CHU",
+            "mute": "TV_MUT",
+            "vol_dwn": "TV_VLD",
+            "vol_up": "TV_VLU"
+          }
+        }
+      }
+    }
+  ],
+  "sensors": {
+    "gasleakA0": "Kitchen",
+    "panicA1": "Living Room-GF",
+    "panicA2": "Bedroom-GF",
+    "panicA3": "MBR-FF",
+    "panicA4": "Bedroom-1-FF",
+    "panicA5": "Bedroom-2-FF",
+    "doorintrusionA6": "Main Door-GF",
+    "doorintrusionA7": "Kitchen-GF",
+    "doorintrusionB0": "Family Living-GF",
+    "doorintrusionB1": "Bal-ENT-FF",
+    "doorintrusionB2": "SKY-ENT-FF",
+    "doorintrusionB3": "Bal-BED-2-FF",
+    "doorintrusionB4": "Bal-BED-1-FF",
+    "smokeB5": "Kitchen",
+    "motionsensorB6": "Living Room-GF",
+    "motionsensorB7": "Family Living-GF",
+    "gasleakC7": "Dry Kitchen"
+  }
+}

@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.divum.pinauthentication.DefaultpinActivity"
+    android:orientation="vertical"
+    android:id="@+id/Defaultpin"
+    android:background="@drawable/home_controls_bg"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Default passcode"
+        android:textColor="@color/blue"
+        android:id="@+id/Default_text"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="1234"
+        android:gravity="center"
+        android:id="@+id/Default_edittext"
+        android:maxLength="4"/>
+    <Button
+        android:layout_width="60dp"
+        android:layout_height="50dp"
+
+        android:id="@+id/Default_btnok"
+        android:text="ok"
+        android:layout_gravity="center_horizontal" />
+
+
+</LinearLayout>

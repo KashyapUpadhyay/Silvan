@@ -1,0 +1,33 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 22
+    buildToolsVersion '25.0.0'
+
+    defaultConfig {
+        applicationId "com.divum.silvan"
+        minSdkVersion 15
+        targetSdkVersion 22
+        versionCode 6
+        versionName "2.1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:22.1.1'
+    compile files('libs/universal-image-loader-1.8.7-snapshot-with-sources.jar')
+    compile 'com.google.android.gms:play-services:7.3.0'
+   // compile 'com.google.api-client:google-api-client:1.20.0'
+  //  compile 'com.google.api-client:google-api-client-android:1.20.0'
+  //  compile 'com.google.api-client:google-api-client-gson:1.20.0'
+   // compile 'com.google.apis:google-api-services-gmail:v1-rev29-1.20.0'
+   // compile 'com.crittercism:crittercism-android-agent:+'
+    compile project(':library')
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Silvan</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="no_network_txt">WIFI or 3G is not connected your Device. So please check your wireless network settings</string>
+    <string name="title_activity_google">GoogleActivity</string>
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+    <string name="title_activity_defaultpin">DefaultpinActivity</string>
+    <string name="title_activity_pin_main">PinMainActivity</string>
+
+
+
+
+
+       <string name="title_activity_google_authantication">GoogleAuthantication</string>
+
+
+    <string name="SetPasscode">Set Pass-code</string>
+
+    <string name="Enter">Enter:</string>
+    <string name="ReEnter">Re-Enter:</string>
+    <string name="btnok">Ok</string>
+    <string name="btncancel">Cancel</string>
+    <string name="title_activity_unlock">UnlockActivity</string>
+    <string name="Unlock">Enter Passcode</string>
+    <string name="Enterpin">Enter Passcode</string>
+
+    <string name="btnunlock">Unlock</string>
+    <string name="title_activity_popup">PopupActivity</string>
+    <string name="text"></string>
+    <string name="title_activity_pinsetting">PinsettingActivity</string>
+    <string name="title_activity_modifypasscode">Modifypasscode</string>
+    <string name="title_activity_modify_pin">ModifyPinActivity</string>
+
+</resources>

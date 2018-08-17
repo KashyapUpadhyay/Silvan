@@ -1,0 +1,307 @@
+{
+    "rooms": [
+        {
+            "Living Room": {
+                "light1": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D301",
+                    "channel": 1,
+                    "nickname": "FAN",
+                    "type": "switching",
+                    "command": {
+                        "tg": "LT_1TG",
+                        "on": "LT_1ON",
+                        "off": "LT_1OF"
+                    }
+                },
+                "light2": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D301",
+                    "channel": 2,
+                    "nickname": "LIGHT-1",
+                    "type": "switching",
+                    "command": {
+                        "tg": "LT_2TG",
+                        "on": "LT_2ON",
+                        "off": "LT_2OF"
+                    }
+                },
+                "light3": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D301",
+                    "channel": 3,
+                    "nickname": "LIGHT-2",
+                    "type": "switching",
+                    "command": {
+                        "tg": "LT_3TG",
+                        "on": "LT_3ON",
+                        "off": "LT_3OF"
+                    }
+                },
+                    "light4": {
+                        "script": "app_usr_core_sendInstruction.sh",
+                        "id": "SR_D301",
+                        "channel": 4,
+                        "nickname": "LIGHT-3",
+                        "type": "switching",
+                        "command": {
+                            "tg": "LT_4TG",
+                            "on": "LT_4ON",
+                            "off": "LT_4OF"
+                        }
+                    },
+                    "light5": {
+                        "script": "app_usr_core_sendInstruction.sh",
+                        "id": "SR_D304",
+                        "channel": 1,
+                        "nickname": "Geyser",
+                        "type": "switching",
+                        "command": {
+                            "tg": "LT_1TG",
+                            "on": "LT_1ON",
+                            "off": "LT_1OF"
+                        }
+                    },
+                "dimmer1": {
+                    "script": "atzi_usr_dimmerControl.sh",
+                    "id": "SD_D401",
+                    "channel": 1,
+                    "nickname": "LivingGF dimmer1",
+                    "type": "dimming",
+                    "command": {
+                        "up": "1+1+0",
+                        "down": "1+-1+0",
+                        "tg": "DM_1TG",
+                        "on": "DM_1ON",
+                        "off": "DM_1OF"
+                    }
+                },
+
+                "ac1": {
+                        "script": "app_usr_core_sendIRPulse.sh",
+                        "id": "IR_D13",
+                        "nickname": "LivingGF ac1",
+                        "type": "ac",
+                        "command": {
+                            "19": "AC_19_",
+                            "20": "AC_20_",
+                            "21": "AC_21_",
+                            "22": "AC_22_",
+                            "23": "AC_23_",
+                            "24": "AC_24_",
+                            "25": "AC_25_",
+                            "26": "AC_26_",
+                            "27": "AC_27_",
+                            "28": "AC_28_",
+                            "29": "AC_29_",
+                            "on": "AC_ON_",
+                            "off": "AC_OFF",
+                            "fl1": "AC_FL1",
+                            "fl2": "AC_FL2",
+                            "fl3": "AC_FL3"
+                        }
+                    }
+                }
+
+        },
+        {
+            "Dining Room": {
+                "light1": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D302",
+                    "channel": 1,
+                    "nickname": "FAN",
+                    "type": "switching",
+                    "command": {
+                        "tg": "LT_1TG",
+                        "on": "LT_1ON",
+                        "off": "LT_1OF"
+                    }
+                },
+                "light2": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D302",
+                    "channel": 2,
+                    "nickname": "LIGHT-1",
+                    "type": "switching",
+                    "command": {
+                        "tg": "LT_2TG",
+                        "on": "LT_2ON",
+                        "off": "LT2OF"
+                    }
+                },
+                "light3": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D302",
+                    "channel": 3,
+                    "nickname": "LIGHT-2",
+                    "type": "switching",
+                    "command": {
+                        "tg": "LT_3TG",
+                        "on": "LT_3ON",
+                        "off": "LT_3OF"
+                    }
+                },
+                "light4": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D302",
+                    "channel": 4,
+                    "nickname": "LIGHT-3",
+                    "type": "switching",
+                    "command": {
+                        "tg": "LT_4TG",
+                        "on": "LT_4ON",
+                        "off": "LT_4OF"
+                    }
+                }
+            }
+        },
+        {
+            "Master Bedroom": {
+                "light1": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D303",
+                    "channel": 1,
+                    "nickname": "fan",
+                    "type": "switching",
+                    "command": {
+                        "tg": "LT_1TG",
+                        "on": "LT_1ON",
+                        "off": "LT_1OF"
+                    }
+                },
+                "light2": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D303",
+                    "channel": 2,
+                    "nickname": "light-1",
+                    "type": "switching",
+                    "command": {
+                        "tg": "LT_2TG",
+                        "on": "LT_2ON",
+                        "off": "LT_2OF"
+                    }
+                },
+                "light3": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D303",
+                    "channel": 3,
+                    "nickname": "light-2",
+                    "type": "switching",
+                    "command": {
+                        "tg": "LT_3TG",
+                        "on": "LT_3ON",
+                        "off": "LT_3OF"
+                    }
+                },
+                "light4": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D303",
+                    "channel": 4,
+                    "nickname": "light-3",
+                    "type": "switching",
+                    "command": {
+                        "tg": "LT_4TG",
+                        "on": "LT_4ON",
+                        "off": "LT_4OF"
+                    }
+                },
+                "light5": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D305",
+                    "channel": 1,
+                    "nickname": "Geyser",
+                    "type": "switching",
+                    "command": {
+                        "tg": "LT_1TG",
+                        "on": "LT_1ON",
+                        "off": "LT_1OF"
+                    }
+                },
+                "curtain2": {
+                    "script": "app_usr_core_sendPulse.sh",
+                    "id": "CR_D601",
+                    "channel": 1,
+                    "nickname": "curtain",
+                    "type": "Curtain",
+                    "command": {
+                        "open": "C1_OPN",
+                        "close": "C1_CLS",
+                        "stop": "C1_STP"
+                    }
+                },
+                "curtain3": {
+                    "script": "app_usr_core_sendPulse.sh",
+                    "id": "CR_D601",
+                    "channel": 1,
+                    "nickname": "curtain",
+                    "type": "Curtain",
+                    "command": {
+                        "open": "C1_OPN",
+                        "close": "C1_CLS",
+                        "stop": "C1_STP"
+                    }
+                }
+            }
+        },
+        {
+            "Common area": {
+                "light1": {
+                    "script": "atzi_usr_dimmerControl.sh",
+                    "id": "SD_D401",
+                    "channel": 1,
+                    "nickname": "Light-1",
+                    "type": "dimming",
+                    "command": {
+                        "up": "1+1+0",
+                        "down": "1+-1+0",
+                        "tg": "LT_1TG",
+                        "on": "LT_1ON",
+                        "off": "LT_1OF"
+                    }
+                },
+                "light2": {
+                    "script": "atzi_usr_dimmerControl.sh",
+                    "id": "SD_D401",
+                    "channel": 2,
+                    "nickname": "LIGHT-2",
+                    "type": "dimming",
+                    "command": {
+                        "up": "2+1+0",
+                        "down": "2+-1+0",
+                        "tg": "LT_2TG",
+                        "on": "LT_2ON",
+                        "off": "LT2OF"
+                    }
+                },
+                "light3": {
+                    "script": "atzi_usr_dimmerControl.sh",
+                    "id": "SD_D401",
+                    "channel": 3,
+                    "nickname": "LIGHT-3",
+                    "type": "dimming",
+                    "command": {
+                        "up": "3+1+0",
+                        "down": "3+-1+0",
+                        "tg": "LT_3TG",
+                        "on": "LT_3ON",
+                        "off": "LT_3OF"
+                    }
+                }
+            }
+        }
+    ],
+    "camera": [
+        {
+            "name": "LivingRoom-GF",
+            "local_url": "http://192.168.1.189:1084/cgi-bin/mjpg/video.cgi?channel=1",
+            "ext_url": "http://106.51.244.205:1084/cgi-bin/mjpg/video.cgi?channel=1"
+        }
+    ],
+    "sensors": {
+        "gasleakA0": "Kitchen",
+        "panicA1": "Living Room",
+        "doorintrusionA6": "Kitchen-GF",
+        "motionB6": "Living Room"
+    }
+}

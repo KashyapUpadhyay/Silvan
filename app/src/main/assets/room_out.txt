@@ -1,0 +1,23 @@
+{
+     
+    "profile": {
+        "Away": {
+            "name": "away",
+            "img_url": "/away.png"
+        },
+        "Maid": {
+            "name": "maid",
+            "img_url": "/maid.png"
+        },
+        "Terrace": {
+            "name": "terrace",
+            "img_url": "/terrace.png"
+        },
+        "Disarm": {
+            "name": "disarm",
+            "img_url": "/disarm.png"
+        }
+    }
+   
+  
+}

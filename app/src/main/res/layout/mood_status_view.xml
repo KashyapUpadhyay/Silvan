@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#7F000000"
+        android:orientation="horizontal"
+        android:paddingBottom="7dp"
+        android:paddingTop="7dp"
+        android:weightSum="4" >
+
+        <TextView
+            android:id="@+id/txtStatusDay"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.70"
+            android:gravity="center"
+            android:text="Daily"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtStatusTime"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.70"
+            android:gravity="center"
+            android:text="00:00"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtStatusRoom"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.40"
+            android:gravity="center"
+            android:text="Master Bedroom-GF"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtStatusMood"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.90"
+            android:gravity="center"
+            android:text="Morning"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/statusDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.30"
+            android:src="@drawable/delete_status_icon" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp" />
+
+</LinearLayout>

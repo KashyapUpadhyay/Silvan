@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#7F000000"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/layout_door_phone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/tab_door_phone"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="DOOR PHONE"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/img_tab_door_phone"
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:layout_below="@id/tab_door_phone"
+            android:background="#33B5E6"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_survillence"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/tab_survillence"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="SURVEILLANCE CAMERAS"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <!--
+             <ImageView
+            android:layout_width="1dp"
+            android:layout_height="26dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/divider" />
+        -->
+
+        <ImageView
+            android:id="@+id/img_tab_survillence"
+            android:layout_width="fill_parent"
+            android:layout_height="3dp"
+            android:layout_below="@id/tab_survillence"
+            android:background="#33B5E6"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+</RelativeLayout>

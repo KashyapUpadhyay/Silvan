@@ -1,0 +1,3 @@
+doorintrusionA6=0
+doorintrusionA7=0
+doorintrusionB0=0

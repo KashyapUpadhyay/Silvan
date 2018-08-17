@@ -1,0 +1,1192 @@
+{
+    "rooms": [
+        {
+            "Living-GF": {
+                "dimmer1": {
+                    "script": "atzi_usr_dimmerControl.sh",
+                    "id": "SD_D401",
+                    "room id": 1,
+                    "channel": 1,
+                    "nickname": "LivingGF dimmer1",
+                    "command": {
+                        "up": "1+1+0",
+                        "down": "1+-1+0",
+                        "tg": "DM_1TG",
+                        "on": "DM_1ON",
+                        "off": "DM_1OF"
+                    }
+                },
+                "dimmer2": {
+                    "script": "atzi_usr_dimmerControl.sh",
+                    "id": "SD_D401",
+                    "room id": 1,
+                    "channel": 2,
+                    "nickname": "LivingGF dimmer2",
+                    "command": {
+                        "up": "2+1+0",
+                        "down": "2+-1+0",
+                        "tg": "DM_2TG",
+                        "on": "DM_2ON",
+                        "off": "DM_2OF"
+                    }
+                },
+                "dimmer3": {
+                    "script": "atzi_usr_dimmerControl.sh",
+                    "id": "SD_D401",
+                    "room id": 1,
+                    "channel": 3,
+                    "nickname": "LivingGF dimmer3",
+                    "command": {
+                        "up": "3+1+0",
+                        "down": "3+-1+0",
+                        "tg": "DM_3TG",
+                        "on": "DM_3ON",
+                        "off": "DM_3OF"
+                    }
+                },
+                "dimmer4": {
+                    "script": "atzi_usr_dimmerControl.sh",
+                    "id": "SD_D401",
+                    "room id": 1,
+                    "channel": 4,
+                    "nickname": "LivingGF dimmer4",
+                    "command": {
+                        "up": "4+1+0",
+                        "down": "4+-1+0",
+                        "tg": "DM_4TG",
+                        "on": "DM_4ON",
+                        "off": "DM_4OF"
+                    }
+                },
+                "ac1": {
+                    "script": "app_usr_core_sendIRPulse.sh",
+                    "id": "IR_D13",
+                    "room id": 1,
+                    "nickname": "LivingGF ac1",
+                    "command": {
+                        "19": "AC_19_",
+                        "20": "AC_20_",
+                        "21": "AC_21_",
+                        "22": "AC_22_",
+                        "23": "AC_23_",
+                        "24": "AC_24_",
+                        "25": "AC_25_",
+                        "26": "AC_26_",
+                        "27": "AC_27_",
+                        "28": "AC_28_",
+                        "29": "AC_29_",
+                        "on": "AC_ON_",
+                        "off": "AC_OFF",
+                        "fl1": "AC_FL1",
+                        "fl2": "AC_FL2",
+                        "fl3": "AC_FL3"
+                    }
+                },
+                "tv1": {
+                    "script": "app_usr_core_sendIRPulse.sh",
+                    "id": "IR_D14",
+                    "room id": 1,
+                    "nickname": "LivingGF tv1",
+                    "command": {
+
+                        "ch_up": "TV_CHU",
+                        "ch_dwn": "TV_CHD",
+                        "vol_up": "TV_VLU",
+                        "vol_dwn": "TV_VLD",
+                        "mute": "TV_MUT",
+                        "source": "TV_SRC",
+                        "enter": "TV_ETR",
+                        "up": "TV_UP_",
+                        "down": "TV_DWN",
+                        "right": "TV_RGT",
+                        "left": "TV_LFT"
+                    }
+                },
+                "stb1": {
+                    "script": "app_usr_core_sendIRPulse.sh",
+                    "id": "IR_D15",
+                    "room id": 1,
+                    "nickname": "LivingGF stb1",
+                    "command": {
+                        "pwr": "STB_PWR",
+                        "ch_up": "STB_CHU",
+                        "ch_dwn": "STB_CHD",
+                        "vol_up": "STB_VLU",
+                        "vol_dwn": "STB_VLD",
+                        "play": "STB_PLY",
+                        "pause": "STB_PAU",
+                        "mute": "STB_MUT",
+                        "source": "STB_SRC",
+                        "enter": "STB_ETR",
+                        "guide": "STB_GIE",
+                        "up": "STB_UP",
+                        "down": "STB_DWN",
+                        "right": "STB_RGT",
+                        "left": "STB_LFT"
+                    }
+                }
+            }
+        },
+        {
+            "Living-FF": {
+                "dimmer1": {
+                    "script": "atzi_usr_dimmerControl.sh",
+                    "id": "SD_D402",
+                    "channel": 1,
+                    "room id": 2,
+                    "nickname": "LivingFF dimmer1",
+                    "command": {
+                        "up": "1+1+0",
+                        "down": "1+-1+0",
+                        "tg": "DM_1TG",
+                        "on": "DM_1ON",
+                        "off": "DM_1OF"
+                    }
+                },
+                "dimmer2": {
+                    "script": "atzi_usr_dimmerControl.sh",
+                    "id": "SD_D402",
+                    "channel": 2,
+                    "room id": 2,
+                    "nickname": "LivingFF dimmer2",
+                    "command": {
+                        "up": "2+1+0",
+                        "down": "2+-1+0",
+                        "tg": "DM_2TG",
+                        "on": "DM_2ON",
+                        "off": "DM_2OF"
+                    }
+                },
+                "dimmer3": {
+                    "script": "atzi_usr_dimmerControl.sh",
+                    "id": "SD_D402",
+                    "nickname": "LivingFF dimmer3",
+                    "channel": 3,
+                    "room id": 2,
+                    "command": {
+                        "up": "3+1+0",
+                        "down": "3+-1+0",
+                        "tg": "DM_3TG",
+                        "on": "DM_3ON",
+                        "off": "DM_3OF"
+                    }
+                },
+                "dimmer4": {
+                    "script": "atzi_usr_dimmerControl.sh",
+                    "id": "SD_D402",
+                    "channel": 4,
+                    "room id": 2,
+                    "nickname": "LivingFF dimmer4",
+                    "command": {
+                        "up": "4+1+0",
+                        "down": "4+-1+0",
+                        "tg": "DM_4TG",
+                        "on": "DM_4ON",
+                        "off": "DM_4OF"
+                    }
+                },
+                "tv1": {
+                    "script": "app_usr_core_sendIRPulse.sh",
+                    "id": "IR_D16",
+                    "room id": 2,
+                    "nickname": "LivingFF tv1",
+                    "command": {
+                        "pwr": "TV_PWR",
+                        "ch_up": "TV_CHU",
+                        "ch_dwn": "TV_CHD",
+                        "vol_up": "TV_VLU",
+                        "vol_dwn": "TV_VLD",
+                        "mute": "TV_MUT",
+                        "source": "TV_SRC",
+                        "enter": "TV_ETR",
+                        "up": "TV_UP_",
+                        "down": "TV_DWN",
+                        "right": "TV_RGT",
+                        "left": "TV_LFT"
+                    }
+                },
+                "stb1": {
+                    "script": "app_usr_core_sendIRPulse.sh",
+                    "id": "IR_D17",
+                    "room id": 2,
+                    "nickname": "LivingFF stb1",
+                    "command": {
+                        "pwr": "STB_PWR",
+                        "ch_up": "STB_CHU",
+                        "ch_dwn": "STB_CHD",
+                        "vol_up": "STB_VLU",
+                        "vol_dwn": "STB_VLD",
+                        "play": "STB_PLY",
+                        "pause": "STB_PAU",
+                        "mute": "STB_MUT",
+                        "source": "STB_SRC",
+                        "enter": "STB_ETR",
+                        "guide": "STB_GIE",
+                        "up": "STB_UP",
+                        "down": "STB_DWN",
+                        "right": "STB_RGT",
+                        "left": "STB_LFT"
+                    }
+                }
+            }
+        },
+        {
+            "MBR-GF": {
+                "light1": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D301",
+                    "channel": 1,
+                    "room id": 3,
+                    "nickname": "MasterbedGF light1",
+                    "command": {
+                        "tg": "LT_1TG",
+                        "on": "LT_1ON",
+                        "off": "LT_1OF"
+                    }
+                },
+                "light2": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D301",
+                    "channel": 2,
+                    "room id": 3,
+                    "nickname": "MasterbedGF light2",
+                    "command": {
+                        "tg": "LT_2TG",
+                        "on": "LT_2ON",
+                        "off": "LT_2OF"
+                    }
+                },
+                "light3": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D301",
+                    "channel": 3,
+                    "room id": 3,
+                    "nickname": "MasterbedGF light3",
+                    "command": {
+                        "tg": "LT_3TG",
+                        "on": "LT_3ON",
+                        "off": "LT_3OF"
+                    }
+                },
+                "light4": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D301",
+                    "channel": 4,
+                    "room id": 3,
+                    "nickname": "MasterbedGF light4",
+                    "command": {
+                        "tg": "LT_4TG",
+                        "on": "LT_4ON",
+                        "off": "LT_4OF"
+                    }
+                },
+                "dimmer1": {
+                    "script": "atzi_usr_dimmerControl.sh",
+                    "id": "SD_D403",
+                    "channel": 1,
+                    "room id": 3,
+                    "nickname": "MasterbedGF dimmer1",
+                    "command": {
+                        "up": "1+1+0",
+                        "down": "1+-1+0",
+                        "tg": "DM_1TG",
+                        "on": "DM_1ON",
+                        "off": "DM_1OF"
+                    }
+                },
+                "dimmer2": {
+                    "script": "atzi_usr_dimmerControl.sh",
+                    "id": "SD_D403",
+                    "channel": 2,
+                    "room id": 3,
+                    "nickname": "MasterbedGF dimmer2",
+                    "command": {
+                        "up": "2+1+0",
+                        "down": "2+-1+0",
+                        "tg": "DM_2TG",
+                        "on": "DM_2ON",
+                        "off": "DM_2OF"
+                    }
+                },
+                "dimmer3": {
+                    "script": "atzi_usr_dimmerControl.sh",
+                    "id": "SD_D403",
+                    "channel": 3,
+                    "room id": 3,
+                    "nickname": "MasterbedGF dimmer3",
+                    "command": {
+                        "up": "3+1+0",
+                        "down": "3+-1+0",
+                        "tg": "DM_3TG",
+                        "on": "DM_3ON",
+                        "off": "DM_3OF"
+                    }
+                },
+                "dimmer4": {
+                    "script": "atzi_usr_dimmerControl.sh",
+                    "id": "SD_D403",
+                    "channel": 4,
+                    "room id": 3,
+                    "nickname": "MasterbedGF dimmer4",
+                    "command": {
+                        "up": "4+1+0",
+                        "down": "4+-1+0",
+                        "tg": "DM_4TG",
+                        "on": "DM_4ON",
+                        "off": "DM_4OF"
+                    }
+                },
+                "curtain1": {
+                    "script": "app_usr_core_sendPulse.sh",
+                    "id": "CR_D601",
+                    "channel": 1,
+                    "room id": 3,
+                    "nickname": "MasterbedGF curtain1",
+                    "command": {
+                        "open": "C1_OPN",
+                        "close": "C1_CLS",
+                        "stop": "C1_STP"
+                    }
+                },
+                "ac1": {
+                    "script": "app_usr_core_sendIRPulse.sh",
+                    "id": "IR_D01",
+                    "room id": 3,
+                    "nickname": "MasterbedGF ac1",
+                    "command": {
+                        "19": "AC_19_",
+                        "20": "AC_20_",
+                        "21": "AC_21_",
+                        "22": "AC_22_",
+                        "23": "AC_23_",
+                        "24": "AC_24_",
+                        "25": "AC_25_",
+                        "26": "AC_26_",
+                        "27": "AC_27_",
+                        "28": "AC_28_",
+                        "29": "AC_29_",
+                        "on": "AC_ON_",
+                        "off": "AC_OFF",
+                        "fl1": "AC_FL1",
+                        "fl2": "AC_FL2",
+                        "fl3": "AC_FL3"
+                    }
+                },
+                "tv1": {
+                    "script": "app_usr_core_sendIRPulse.sh",
+                    "id": "IR_D02",
+                    "room id": 3,
+                    "nickname": "MasterbedGF tv1",
+                    "command": {
+                        "pwr": "TV_PWR",
+                        "ch_up": "TV_CHU",
+                        "ch_dwn": "TV_CHD",
+                        "vol_up": "TV_VLU",
+                        "vol_dwn": "TV_VLD",
+                        "mute": "TV_MUT",
+                        "source": "TV_SRC",
+                        "enter": "TV_ETR",
+                        "up": "TV_UP_",
+                        "down": "TV_DWN",
+                        "right": "TV_RGT",
+                        "left": "TV_LFT"
+                    }
+                },
+                "stb1": {
+                    "script": "app_usr_core_sendIRPulse.sh",
+                    "id": "IR_D03",
+                    "room id": 3,
+                    "nickname": "MasterbedGF stb1",
+                    "command": {
+                        "pwr": "STB_PWR",
+                        "ch_up": "STB_CHU",
+                        "ch_dwn": "STB_CHD",
+                        "vol_up": "STB_VLU",
+                        "vol_dwn": "STB_VLD",
+                        "play": "STB_PLY",
+                        "pause": "STB_PAU",
+                        "mute": "STB_MUT",
+                        "source": "STB_SRC",
+                        "enter": "STB_ETR",
+                        "guide": "STB_GIE",
+                        "up": "STB_UP",
+                        "down": "STB_DWN",
+                        "right": "STB_RGT",
+                        "left": "STB_LFT"
+                    }
+                }
+            }
+        },
+        {
+            "MBR-FF": {
+                "light1": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D302",
+                    "channel": 1,
+                    "room id": 4,
+                    "nickname": "MasterbedFF light1",
+                    "command": {
+                        "tg": "LT_1TG",
+                        "on": "LT_1ON",
+                        "off": "LT_1OF"
+                    }
+                },
+                "light2": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D302",
+                    "channel": 2,
+                    "room id": 4,
+                    "nickname": "MasterbedFF light2",
+                    "command": {
+                        "tg": "LT_2TG",
+                        "on": "LT_2ON",
+                        "off": "LT_2OF"
+                    }
+                },
+                "light3": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D302",
+                    "nickname": "MasterbedFF light3",
+                    "channel": 3,
+                    "room id": 4,
+                    "command": {
+                        "tg": "LT_3TG",
+                        "on": "LT_3ON",
+                        "off": "LT_3OF"
+                    }
+                },
+                "light4": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D302",
+                    "channel": 4,
+                    "room id": 4,
+                    "nickname": "MasterbedFF light4",
+                    "command": {
+                        "tg": "LT_4TG",
+                        "on": "LT_4ON",
+                        "off": "LT_4OF"
+                    }
+                },
+                "dimmer1": {
+                    "script": "atzi_usr_dimmerControl.sh",
+                    "id": "SD_D404",
+                    "channel": 1,
+                    "room id": 4,
+                    "nickname": "MasterbedFF dimmer1",
+                    "command": {
+                        "up": "1+1+0",
+                        "down": "1+-1+0",
+                        "tg": "DM_1TG",
+                        "on": "DM_1ON",
+                        "off": "DM_1OF"
+                    }
+                },
+                "dimmer2": {
+                    "script": "atzi_usr_dimmerControl.sh",
+                    "id": "SD_D404",
+                    "nickname": "MasterbedFF dimmer2",
+                    "channel": 2,
+                    "room id": 4,
+                    "command": {
+                        "up": "2+1+0",
+                        "down": "2+-1+0",
+                        "tg": "DM_2TG",
+                        "on": "DM_2ON",
+                        "off": "DM_2OF"
+                    }
+                },
+                "dimmer3": {
+                    "script": "atzi_usr_dimmerControl.sh",
+                    "id": "SD_D404",
+                    "channel": 3,
+                    "room id": 4,
+                    "nickname": "MasterbedFF dimmer3",
+                    "command": {
+                        "up": "3+1+0",
+                        "down": "3+-1+0",
+                        "tg": "DM_3TG",
+                        "on": "DM_3ON",
+                        "off": "DM_3OF"
+                    }
+                },
+                "dimmer4": {
+                    "script": "atzi_usr_dimmerControl.sh",
+                    "id": "SD_D404",
+                    "channel": 4,
+                    "room id": 4,
+                    "nickname": "MasterbedFF dimmer4",
+                    "command": {
+                        "up": "4+1+0",
+                        "down": "4+-1+0",
+                        "tg": "DM_4TG",
+                        "on": "DM_4ON",
+                        "off": "DM_4OF"
+                    }
+                },
+                "curtain2": {
+                    "script": "app_usr_core_sendPulse.sh",
+                    "id": "CR_D601",
+                    "nickname": "MasterbedFF curtain2",
+                    "channel": 1,
+                    "room id": 4,
+                    "command": {
+                        "open": "C2_OPN",
+                        "close": "C2_CLS",
+                        "stop": "C2_STP"
+                    }
+                },
+                "ac1": {
+                    "script": "app_usr_core_sendIRPulse.sh",
+                    "id": "IR_D04",
+                    "nickname": "MasterbedFF ac1",
+                    "room id": 4,
+                    "command": {
+                        "19": "AC_19_",
+                        "20": "AC_20_",
+                        "21": "AC_21_",
+                        "22": "AC_22_",
+                        "23": "AC_23_",
+                        "24": "AC_24_",
+                        "25": "AC_25_",
+                        "26": "AC_26_",
+                        "27": "AC_27_",
+                        "28": "AC_28_",
+                        "29": "AC_29_",
+                        "on": "AC_ON_",
+                        "off": "AC_OFF",
+                        "fl1": "AC_FL1",
+                        "fl2": "AC_FL2",
+                        "fl3": "AC_FL3"
+                    }
+                },
+                "tv1": {
+                    "script": "app_usr_core_sendIRPulse.sh",
+                    "id": "IR_D05",
+                    "nickname": "MasterbedFF tv1",
+                    "room id": 4,
+                    "command": {
+                        "pwr": "TV_PWR",
+                        "ch_up": "TV_CHU",
+                        "ch_dwn": "TV_CHD",
+                        "vol_up": "TV_VLU",
+                        "vol_dwn": "TV_VLD",
+                        "mute": "TV_MUT",
+                        "source": "TV_SRC",
+                        "enter": "TV_ETR",
+                        "up": "TV_UP_",
+                        "down": "TV_DWN",
+                        "right": "TV_RGT",
+                        "left": "TV_LFT"
+                    }
+                },
+                "stb1": {
+                    "script": "app_usr_core_sendIRPulse.sh",
+                    "id": "IR_D06",
+                    "nickname": "MasterbedFF stb1",
+                    "room id": 4,
+                    "command": {
+                        "pwr": "STB_PWR",
+                        "ch_up": "STB_CHU",
+                        "ch_dwn": "STB_CHD",
+                        "vol_up": "STB_VLU",
+                        "vol_dwn": "STB_VLD",
+                        "play": "STB_PLY",
+                        "pause": "STB_PAU",
+                        "mute": "STB_MUT",
+                        "source": "STB_SRC",
+                        "enter": "STB_ETR",
+                        "guide": "STB_GIE",
+                        "up": "STB_UP",
+                        "down": "STB_DWN",
+                        "right": "STB_RGT",
+                        "left": "STB_LFT"
+                    }
+                }
+            }
+        },
+        {
+            "BR-GF": {
+                "light1": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D303",
+                    "channel": 1,
+                    "nickname": "BedGF light1",
+                    "room id": 5,
+                    "command": {
+                        "tg": "LT_1TG",
+                        "on": "LT_1ON",
+                        "off": "LT_1OF"
+                    }
+                },
+                "light2": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D303",
+                    "channel": 2,
+                    "room id": 5,
+                    "nickname": "BedGF light2",
+                    "command": {
+                        "tg": "LT_2TG",
+                        "on": "LT_2ON",
+                        "off": "LT_2OF"
+                    }
+                },
+                "light3": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D303",
+                    "channel": 3,
+                    "room id": 5,
+                    "nickname": "BedGF light3",
+                    "command": {
+                        "tg": "LT_3TG",
+                        "on": "LT_3ON",
+                        "off": "LT_3OF"
+                    }
+                },
+                "light4": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D303",
+                    "channel": 4,
+                    "room id": 5,
+                    "nickname": "BedGF light4",
+                    "command": {
+                        "tg": "LT_4TG",
+                        "on": "LT_4ON",
+                        "off": "LT_4OF"
+                    }
+                },
+                "dimmer1": {
+                    "script": "atzi_usr_dimmerControl.sh",
+                    "id": "SD_D405",
+                    "channel": 1,
+                    "room id": 5,
+                    "nickname": "BedGF dimmer1",
+                    "command": {
+                        "up": "1+1+0",
+                        "down": "1+-1+0",
+                        "tg": "DM_1TG",
+                        "on": "DM_1ON",
+                        "off": "DM_1OF"
+                    }
+                },
+                "dimmer2": {
+                    "script": "atzi_usr_dimmerControl.sh",
+                    "id": "SD_D405",
+                    "channel": 2,
+                    "room id": 5,
+                    "nickname": "BedGF dimmer2",
+                    "command": {
+                        "up": "2+1+0",
+                        "down": "2+-1+0",
+                        "tg": "DM_2TG",
+                        "on": "DM_2ON",
+                        "off": "DM_2OF"
+                    }
+                },
+                "dimmer3": {
+                    "script": "atzi_usr_dimmerControl.sh",
+                    "id": "SD_D405",
+                    "channel": 3,
+                    "room id": 5,
+                    "nickname": "BedGF dimmer3",
+                    "command": {
+                        "up": "3+1+0",
+                        "down": "3+-1+0",
+                        "tg": "DM_3TG",
+                        "on": "DM_3ON",
+                        "off": "DM_3OF"
+                    }
+                },
+                "dimmer4": {
+                    "script": "atzi_usr_dimmerControl.sh",
+                    "id": "SD_D405",
+                    "channel": 4,
+                    "room id": 5,
+                    "nickname": "BedGF dimmer4",
+                    "command": {
+                        "up": "4+1+0",
+                        "down": "4+-1+0",
+                        "tg": "DM_4TG",
+                        "on": "DM_4ON",
+                        "off": "DM_4OF"
+                    }
+                },
+                "ac1": {
+                    "script": "app_usr_core_sendIRPulse.sh",
+                    "id": "IR_D07",
+                    "nickname": "BedGF ac1",
+                    "room id": 5,
+                    "command": {
+                        "19": "AC_19_",
+                        "20": "AC_20_",
+                        "21": "AC_21_",
+                        "22": "AC_22_",
+                        "23": "AC_23_",
+                        "24": "AC_24_",
+                        "25": "AC_25_",
+                        "26": "AC_26_",
+                        "27": "AC_27_",
+                        "28": "AC_28_",
+                        "29": "AC_29_",
+                        "on": "AC_ON_",
+                        "off": "AC_OFF",
+                        "fl1": "AC_FL1",
+                        "fl2": "AC_FL2",
+                        "fl3": "AC_FL3"
+                    }
+                },
+                "tv1": {
+                    "script": "app_usr_core_sendIRPulse.sh",
+                    "id": "IR_D08",
+                    "nickname": "BedGF tv1",
+                    "room id": 5,
+                    "command": {
+                        "pwr": "TV_PWR",
+                        "ch_up": "TV_CHU",
+                        "ch_dwn": "TV_CHD",
+                        "vol_up": "TV_VLU",
+                        "vol_dwn": "TV_VLD",
+                        "mute": "TV_MUT",
+                        "source": "TV_SRC",
+                        "enter": "TV_ETR",
+                        "up": "TV_UP_",
+                        "down": "TV_DWN",
+                        "right": "TV_RGT",
+                        "left": "TV_LFT"
+                    }
+                },
+                "stb1": {
+                    "script": "app_usr_core_sendIRPulse.sh",
+                    "id": "IR_D09",
+                    "nickname": "BedGF stb1",
+                    "room id": 5,
+                    "command": {
+                        "pwr": "STB_PWR",
+                        "ch_up": "STB_CHU",
+                        "ch_dwn": "STB_CHD",
+                        "vol_up": "STB_VLU",
+                        "vol_dwn": "STB_VLD",
+                        "play": "STB_PLY",
+                        "pause": "STB_PAU",
+                        "mute": "STB_MUT",
+                        "source": "STB_SRC",
+                        "enter": "STB_ETR",
+                        "guide": "STB_GIE",
+                        "up": "STB_UP",
+                        "down": "STB_DWN",
+                        "right": "STB_RGT",
+                        "left": "STB_LFT"
+                    }
+                }
+            }
+        },
+        {
+            "BR-FF": {
+                "light1": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D304",
+                    "channel": 1,
+                    "room id": 6,
+                    "nickname": "BedFF light1",
+                    "command": {
+                        "tg": "LT_1TG",
+                        "on": "LT_1ON",
+                        "off": "LT_1OF"
+                    }
+                },
+                "light2": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D304",
+                    "channel": 2,
+                    "room id": 6,
+                    "nickname": "BedFF light2",
+                    "command": {
+                        "tg": "LT_2TG",
+                        "on": "LT_2ON",
+                        "off": "LT_2OF"
+                    }
+                },
+                "light3": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D304",
+                    "channel": 3,
+                    "room id": 6,
+                    "nickname": "BedFF light3",
+                    "command": {
+                        "tg": "LT_3TG",
+                        "on": "LT_3ON",
+                        "off": "LT_3OF"
+                    }
+                },
+                "light4": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D304",
+                    "channel": 4,
+                    "room id": 6,
+                    "nickname": "BedFF light4",
+                    "command": {
+                        "tg": "LT_4TG",
+                        "on": "LT_4ON",
+                        "off": "LT_4OF"
+                    }
+                },
+                "dimmer1": {
+                    "script": "atzi_usr_dimmerControl.sh",
+                    "id": "SD_D406",
+                    "channel": 1,
+                    "room id": 6,
+                    "nickname": "BedFF dimmer1",
+                    "command": {
+                        "up": "1+1+0",
+                        "down": "1+-1+0",
+                        "tg": "DM_1TG",
+                        "on": "DM_1ON",
+                        "off": "DM_1OF"
+                    }
+                },
+                "dimmer2": {
+                    "script": "atzi_usr_dimmerControl.sh",
+                    "id": "SD_D406",
+                    "channel": 2,
+                    "room id": 6,
+                    "nickname": "BedFF dimmer2",
+                    "command": {
+                        "up": "2+1+0",
+                        "down": "2+-1+0",
+                        "tg": "DM_2TG",
+                        "on": "DM_2ON",
+                        "off": "DM_2OF"
+                    }
+                },
+                "dimmer3": {
+                    "script": "atzi_usr_dimmerControl.sh",
+                    "id": "SD_D406",
+                    "channel": 3,
+                    "room id": 6,
+                    "nickname": "BedFF dimmer3",
+                    "command": {
+                        "up": "3+1+0",
+                        "down": "3+-1+0",
+                        "tg": "DM_3TG",
+                        "on": "DM_3ON",
+                        "off": "DM_3OF"
+                    }
+                },
+                "dimmer4": {
+                    "script": "atzi_usr_dimmerControl.sh",
+                    "id": "SD_D406",
+                    "channel": 4,
+                    "room id": 6,
+                    "nickname": "BedFF dimmer4",
+                    "command": {
+                        "up": "4+1+0",
+                        "down": "4+-1+0",
+                        "tg": "DM_4TG",
+                        "on": "DM_4ON",
+                        "off": "DM_4OF"
+                    }
+                },
+                "ac1": {
+                    "script": "app_usr_core_sendIRPulse.sh",
+                    "id": "IR_D10",
+                    "nickname": "BedFF ac1",
+                    "room id": 6,
+                    "command": {
+                        "19": "AC_19_",
+                        "20": "AC_20_",
+                        "21": "AC_21_",
+                        "22": "AC_22_",
+                        "23": "AC_23_",
+                        "24": "AC_24_",
+                        "25": "AC_25_",
+                        "26": "AC_26_",
+                        "27": "AC_27_",
+                        "28": "AC_28_",
+                        "29": "AC_29_",
+                        "on": "AC_ON_",
+                        "off": "AC_OFF",
+                        "fl1": "AC_FL1",
+                        "fl2": "AC_FL2",
+                        "fl3": "AC_FL3"
+                    }
+                },
+                "tv1": {
+                    "script": "app_usr_core_sendIRPulse.sh",
+                    "id": "IR_D11",
+                    "nickname": "BedFF tv1",
+                    "room id": 6,
+                    "command": {
+                        "pwr": "TV_PWR",
+                        "ch_up": "TV_CHU",
+                        "ch_dwn": "TV_CHD",
+                        "vol_up": "TV_VLU",
+                        "vol_dwn": "TV_VLD",
+                        "mute": "TV_MUT",
+                        "source": "TV_SRC",
+                        "enter": "TV_ETR",
+                        "up": "TV_UP_",
+                        "down": "TV_DWN",
+                        "right": "TV_RGT",
+                        "left": "TV_LFT"
+                    }
+                },
+                "stb1": {
+                    "script": "app_usr_core_sendIRPulse.sh",
+                    "id": "IR_D12",
+                    "nickname": "BedFF stb1",
+                    "room id": 6,
+                    "command": {
+                        "pwr": "STB_PWR",
+                        "ch_up": "STB_CHU",
+                        "ch_dwn": "STB_CHD",
+                        "vol_up": "STB_VLU",
+                        "vol_dwn": "STB_VLD",
+                        "play": "STB_PLY",
+                        "pause": "STB_PAU",
+                        "mute": "STB_MUT",
+                        "source": "STB_SRC",
+                        "enter": "STB_ETR",
+                        "guide": "STB_GIE",
+                        "up": "STB_UP",
+                        "down": "STB_DWN",
+                        "right": "STB_RGT",
+                        "left": "STB_LFT"
+                    }
+                }
+            }
+        },
+        {
+            "Global": {
+                "light1": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D305",
+                    "channel": 1,
+                    "room id": 7,
+                    "nickname": "CA light1",
+                    "command": {
+                        "tg": "LT_1TG",
+                        "on": "LT_1ON",
+                        "off": "LT_1OF"
+                    }
+                },
+                "light2": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D305",
+                    "channel": 2,
+                    "room id": 7,
+                    "nickname": "CA light2",
+                    "command": {
+                        "tg": "LT_2TG",
+                        "on": "LT_2ON",
+                        "off": "LT_2OF"
+                    }
+                },
+                "light3": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D305",
+                    "channel": 3,
+                    "room id": 7,
+                    "nickname": "CA light3",
+                    "command": {
+                        "tg": "LT_3TG",
+                        "on": "LT_3ON",
+                        "off": "LT_3OF"
+                    }
+                },
+                "light4": {
+                    "script": "app_usr_core_sendInstruction.sh",
+                    "id": "SR_D305",
+                    "channel": 4,
+                    "room id": 7,
+                    "nickname": "CA light4",
+                    "command": {
+                        "tg": "LT_4TG",
+                        "on": "LT_4ON",
+                        "off": "LT_4OF"
+                    }
+                }
+            }
+        }
+    ],
+    "global": {
+        "curtain5": {
+            "script": "app_usr_core_sendPulse.sh",
+            "id": "CR_D601",
+            "nickname": "global curtain5",
+            "command": {
+                "pulse": "C5_OPN"
+            }
+        },
+        "curtain6": {
+            "script": "app_usr_core_sendPulse.sh",
+            "id": "CR_D601",
+            "nickname": "global curtain6",
+            "command": {
+                "pulse": "C5_CLS"
+            }
+        }
+    },
+    "mood_configuration": {
+        "mood_list": [
+            {
+                "name": "MasterOn",
+                "id": 1,
+                "img_url": "/master_on.png"
+            },
+            {
+                "name": "MasterOff",
+                "id": 2,
+                "img_url": "/master_off.png"
+            },
+            {
+                "name": "Morning",
+                "id": 3,
+                "img_url": "/morning.png"
+            },
+            {
+                "name": "Evening",
+                "id": 4,
+                "img_url": "/evening.png"
+            },
+            {
+                "name": "Dinner",
+                "id": 5,
+                "img_url": "/dinner.png"
+            }
+        ],
+        "room_list": {
+            "LivingRoom-GF": {
+                "room_id": 1,
+                "moods": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "LivingRoom-FF": {
+                "room_id": 2,
+                "moods": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "Master BedRoom-GF": {
+                "room_id": 3,
+                "moods": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "Master BedRoom-FF": {
+                "room_id": 4,
+                "moods": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "BedRoom-GF": {
+                "room_id": 5,
+                "moods": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "BedRoom-FF": {
+                "room_id": 6,
+                "moods": [
+                    1,
+                    2,
+                    3,
+                    4,
+                    5
+                ]
+            },
+            "Common Area": {
+                "room_id": 7,
+                "moods": [
+                    1,
+                    2
+                ]
+            }
+        }
+    },
+    "profile": {
+        "Away": {
+            "name": "away",
+            "img_url": "/away.png"
+        },
+        "Maid": {
+            "name": "maid",
+            "img_url": "/maid.png"
+        },
+        "Terrace": {
+            "name": "terrace",
+            "img_url": "/terrace.png"
+        },
+        "Disarm": {
+            "name": "disarm",
+            "img_url": "/disarm.png"
+        }
+    },
+    "camera": [
+        {
+            "name": "LivingRoom-GF",
+            "local_url": "http://192.168.1.231:84/goform/stream?cmd=get&channel=0",
+            "ext_url": "http://silavansaya.com/goform/stream?cmd=get&channel=0"
+        },
+        {
+            "name": "LivingRoom-FF",
+            "local_url": "http://192.168.1.231:84/goform/stream?cmd=get&channel=0",
+            "ext_url": "http://silavansaya.com/goform/stream?cmd=get&channel=0"
+        },
+        {
+            "name": "Master BedRoom-GF",
+            "local_url": "http://192.168.1.231:84/goform/stream?cmd=get&channel=0",
+            "ext_url": "http://silavansaya.com/goform/stream?cmd=get&channel=0"
+        },
+        {
+            "name": "BedRoom-GF",
+            "local_url": "http://192.168.1.231:84/goform/stream?cmd=get&channel=0",
+            "ext_url": "http://silavansaya.com/goform/stream?cmd=get&channel=0"
+        },
+        {
+            "name": "Master BedRoom-FF",
+            "local_url": "http://192.168.1.231:84/goform/stream?cmd=get&channel=0",
+            "ext_url": "http://silavansaya.com/goform/stream?cmd=get&channel=0"
+        },
+        {
+            "name": "BedRoom-FF",
+            "local_url": "http://192.168.1.231:84/goform/stream?cmd=get&channel=0",
+            "ext_url": "http://silavansaya.com/goform/stream?cmd=get&channel=0"
+        }
+    ],
+    "sensors": {
+        "gasleakA0": "Kitchen",
+        "panicA1": "MBR-1",
+        "panicA2": "BedRoom-3",
+        "panicA3": "MBR-2",
+        "panicA4": "BedRoom-4",
+        "doorintrusionA6": "Main Door",
+        "doorintrusionA7": "Terrace Door",
+        "doorintrusionB0": "ServerRoom Door",
+        "doorintrusionB1": "Sample1  Door",
+        "doorintrusionB2": "Sample2 Door",
+        "doorintrusionB3": "Sample3 Door",
+        "smokeB5": "Smoke Sensor",
+        "motionC3": "Motion C3 Room",
+        "GBD":"GBD"
+    }
+}
